@@ -1,6 +1,13 @@
+'use client'
 import styled from 'styled-components';
 
-export const Container = styled.div`
+//this is the container that causes the signin and signup to have to part,(image and form) using grid
+export const AuthContainer = styled.div`
     width: 100%;
-    padding: 20px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
 `
+
