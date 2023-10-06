@@ -37,7 +37,7 @@ const EmailSetUp = () => {
           id="outlined-basic"
           label="Email"
           style={{margin: '5px 0'}}
-          className="md:w-[400px] lg:w-[500px] w-[300px]"
+          className="md:w-[350px] lg:w-[500px] w-[300px]"
           variant="outlined"
           value={email}
           onChange={handleEmailChange}

@@ -44,7 +44,7 @@ export default function PasswordSetUp() {
           id="outlined-adornment-password"
           type={showPassword ? "text" : "password"}
           style={{  color: '#000'}}
-          className="md:w-[400px] lg:w-[500px] w-[300px]"
+          className="md:w-[350px] lg:w-[500px] w-[300px]"
           endAdornment={
             <InputAdornment position="end">
               <IconButton

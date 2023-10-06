@@ -31,9 +31,9 @@ export default function CompleteSingUp() {
   return (
         <AuthContainer >
         {/* <Image src="/images/people-happy.jpg" fill className="  absolute z-[999] " alt="img"  /> */}
-        <Image src="/images/hands-on-deck.jpg" alt="image" className='md:h-[100vh] md:relative absolute top-0  bg-contain h-[50vh]' width={1000} height={40} />
+        <Image src="/images/hands-on-deck.jpg" alt="image" className='md:h-[100vh] md:relative mb-3 bg-contain h-[50vh]' width={1000} height={40} />
         <div className='flex flex-col items-center'>
-          <h2 className='text-[#007bff] md:text-[40px] text-[24px] font-[500]   mb-[2rem]'>Sign Up</h2>
+          <h2 className='text-[#007bff] md:text-[40px] text-[24px] font-[500] text-left   mb-[2rem]'>Submit Details</h2>
           <form  className='flex flex-col lg:w-[500px] md:w-[350px] w-[300px]'>
             
             <NameSetUp text={"Company Name"}/>
@@ -52,7 +52,9 @@ export default function CompleteSingUp() {
             </label>
 
             </div>
+            <Link href={"/home"}>
             <Button text={"Sign Up"}/>
+            </Link>
 
           </form>
           <span className='mt-4'>Already have an account ?  <Link href='/signin' className='text-[#007bff]'>Sign In</Link></span>

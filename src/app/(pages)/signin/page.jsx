@@ -51,13 +51,15 @@ export default function Signin() {
   return (
         <AuthContainer>
         {/* <Image src="/images/people-happy.jpg" fill className="  absolute z-[999] " alt="img"  /> */}
-        <Image src="/images/manhappy.png" alt="image" className='md:h-[100vh] md:relative absolute top-0  bg-contain h-[50vh]' width={1000} height={40} />
-        <div className='flex flex-col items-center md:mt-0 mt-[15rem]'>
+        <Image src="/images/manhappy.png" alt="image" className='md:h-[100vh] md:relative  bg-contain h-[50vh]' width={1000} height={40} />
+        <div className='flex flex-col z-[999] items-center md:mt-0 mt-[2rem]'>
           <h2 className='text-[#007bff] md:text-[40px] text-[24px] font-[500]   mb-[2rem]'>Sign In</h2>
-          <form  className=''>
+          <form  className='flex flex-col '>
             <EmailSetUp/>
             <PasswordSetUp />
-            <Button text={"Sign in"}/>
+            <Link href={'/home'}>
+            <Button text={"Sign In"}/>
+            </Link>
           </form>
           <div className='flex items-center gap-[1rem] mt-4 md:mt-[4rem]'>
             <div className='md:w-[200px] w-[100px] bg-[#1D1D1D] h-[1px]'></div>
