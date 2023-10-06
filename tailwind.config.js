@@ -15,6 +15,14 @@ module.exports = {
       colors: {
         'site-blue': '#007BFF',
       },
+      keyframes: {
+        wiggle: {
+          '0% , 100%': { opacity: 1 },
+        }
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in 2s',
+      }
     },
   },
   plugins: [],

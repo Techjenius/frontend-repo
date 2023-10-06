@@ -36,7 +36,8 @@ const EmailSetUp = () => {
         <CustomTextField
           id="outlined-basic"
           label="Email"
-          style={{width: '300px', margin: '5px 0'}}
+          style={{margin: '5px 0'}}
+          className="md:w-[400px] lg:w-[500px] w-[300px]"
           variant="outlined"
           value={email}
           onChange={handleEmailChange}

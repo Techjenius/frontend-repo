@@ -1,8 +1,11 @@
 'use client'
 import React from "react";
-import { AuthContainer } from "@/atoms";
-import EmailSetUp from "@/atoms/emailSetUp";
-import PasswordSetUp from "@/atoms/passwordSetUp";
+// import { AuthContainer } from "@/atoms";
+// import EmailSetUp from "@/atoms/emailSetUp";
+// import PasswordSetUp from "@/atoms/passwordSetUp";
+import { AuthContainer } from "@/components/atoms";
+import EmailSetUp from "@/components/atoms/emailSetUp";
+import PasswordSetUp from "@/components/atoms/passwordSetUp";
 
 
 const ShowOff = () => {

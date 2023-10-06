@@ -43,7 +43,8 @@ export default function PasswordSetUp() {
         <CustomTextField
           id="outlined-adornment-password"
           type={showPassword ? "text" : "password"}
-          style={{ width: "300px", color: '#000'}}
+          style={{  color: '#000'}}
+          className="md:w-[400px] lg:w-[500px] w-[300px]"
           endAdornment={
             <InputAdornment position="end">
               <IconButton
