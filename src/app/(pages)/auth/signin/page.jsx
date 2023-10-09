@@ -7,9 +7,9 @@ import EmailSetUp from '@/components/atoms/emailSetUp';
 import PasswordSetUp from '@/components/atoms/passwordSetUp';
 import { AuthContainer } from '@/components/atoms';
 import Button from '@/components/Button';
-import IOS from '../../../../public/images/ios-logo.svg'
-import Facebook from '../../../../public/images/facebook-logo.svg'
-import Google from '../../../../public/images/google-logo.svg'
+import IOS from '../../../../../public/images/ios-logo.svg'
+import Facebook from '../../../../../public/images/facebook-logo.svg'
+import Google from '../../../../../public/images/google-logo.svg'
 import Link from 'next/link';
 
 export default function Signin() {
@@ -78,7 +78,7 @@ export default function Signin() {
 
         </div>
 
-          <span className='mt-4'>Don't have an account ?  <Link href='/signup' className='text-[#007bff]'>Sign Up</Link></span>
+          <span className='mt-4'>Dont have an account ?  <Link href='/auth/signup' className='text-[#007bff]'>Sign Up</Link></span>
         </div>
         </AuthContainer>
   );

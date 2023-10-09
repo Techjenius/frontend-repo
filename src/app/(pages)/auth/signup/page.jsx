@@ -6,9 +6,9 @@ import EmailSetUp from '@/components/atoms/emailSetUp';
 import PasswordSetUp from '@/components/atoms/passwordSetUp';
 import { AuthContainer } from '@/components/atoms';
 import Button from '@/components/Button';
-import IOS from '../../../../public/images/ios-logo.svg'
-import Facebook from '../../../../public/images/facebook-logo.svg'
-import Google from '../../../../public/images/google-logo.svg'
+import IOS from '../../../../../public/images/ios-logo.svg'
+import Facebook from '../../../../../public/images/facebook-logo.svg'
+import Google from '../../../../../public/images/google-logo.svg'
 import Link from 'next/link';
 import NameSetUp from '@/components/atoms/nameSetUp';
 import PhoneSetUp from '@/components/atoms/phoneSetUp';
@@ -38,7 +38,7 @@ export default function Signup() {
             <EmailSetUp/>
             <PasswordSetUp />
             <PhoneSetUp />
-            <Link href={'/complete-sign-up'}>
+            <Link href={'/auth/complete-sign-up'}>
             <Button text={"Next"}/>
             </Link>
           </form>
@@ -59,7 +59,7 @@ export default function Signup() {
 
         </div>
 
-          <span className='mt-4'>Already have an account ?  <Link href='/signin' className='text-[#007bff]'>Sign In</Link></span>
+          <span className='mt-4'>Already have an account ?  <Link href='/auth/signin' className='text-[#007bff]'>Sign In</Link></span>
         </div>
         </AuthContainer>
   );
