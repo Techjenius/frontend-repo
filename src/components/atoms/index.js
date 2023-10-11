@@ -1,5 +1,5 @@
-'use client'
-import styled from 'styled-components';
+"use client";
+import styled from "styled-components";
 
 //this is the container that causes the signin and signup to have to part,(image and form) using grid
 export const AuthContainer = styled.div`
@@ -14,4 +14,10 @@ export const AuthContainer = styled.div`
     grid-template-columns: 1fr;
   }
 `;
+
+export const Logo = styled.div`
+  font-size: 20px;
+  font-weight: 600;
+`;
+
 
