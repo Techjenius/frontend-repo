@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         'site-blue': '#007BFF',
+        'primary': '#007bff',
       },
       keyframes: {
         wiggle: {

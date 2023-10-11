@@ -10,7 +10,7 @@ export default function BasicDatePicker() {
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
       <DemoContainer components={['DatePicker']}>
-        <DatePicker label="Basic date picker" />
+        <DatePicker label="Pick Date" />
       </DemoContainer>
     </LocalizationProvider>
   );

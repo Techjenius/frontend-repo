@@ -50,7 +50,7 @@ export default function CompleteSingUp() {
             <NameSetUp text={"Country"} />
             <NameSetUp text={"State"} />
           </div>
-          <BasicDatePicker label="Basic date picker" />
+          <BasicDatePicker label="Pick Date" />
           <div className="mt-[1rem]">
             <span className="mt-4 text-gray-800">Upload CV</span>
             <FileUpload />
