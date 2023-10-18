@@ -25,28 +25,7 @@ export default function Signin() {
       img: Google,
     },
   ]
-  // useEffect(() => {
-  //   // Create a GSAP animation
-  //   const tween = gsap.fromTo(
-  //     '.animate-out',
-  //     { opacity: 1},
-  //     { opacity: 0, duration: 5, easeOut: 'elastic' }
-  //   );
-  //   const twin = gsap.fromTo(
-  //     '.animate-in',
-  //     { opacity: 0, },
-  //     { opacity: 1, duration: 5, easeIn: 'elastic', }
-  //   );
 
-  //   // Pause the animation initially
-  //   tween.pause();
-  //   twin.pause();
-  //   // Play the animation with a duration of 3 seconds
-  //   tween.play();
-  //   // tween.pause();
-  //   twin.play();
-  //   // twin.pause();
-  // }, []);
   
   return (
         <AuthContainer>
