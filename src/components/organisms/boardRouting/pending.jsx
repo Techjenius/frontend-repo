@@ -34,7 +34,7 @@ const Pending = () => {
         <StatsCard />
       </div>
       <h1 className="text-[1.4em] font-semibold py-8">Onboarding Tasks</h1>
-      <div>
+      <div className="flex justify-center items-center">
         <Table />
       </div>
     </div>

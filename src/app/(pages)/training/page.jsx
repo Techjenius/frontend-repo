@@ -18,7 +18,7 @@ import PanTool from "../../../../public/images/manhappy.png";
 import Image from "next/image";
 import "../../../styles/styles.css";
 import Table from "@/components/organisms/table";
-import MyComponent from "@/components/molecules/routing";
+import MyComponent from "@/components/molecules/progressBar";
 
 const Training = () => {
   const moduleArray = [
