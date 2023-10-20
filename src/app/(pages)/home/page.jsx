@@ -14,32 +14,32 @@ const Dashboard = () => {
     {
       title: "Admin",
       icon: <AdminPanelSettings />,
-      path: "/library",
+      path: "/admin",
     },
     {
-      title: "Employee",
+      title: "Employees",
       icon: <People />,
-      path: "/analysis",
+      path: "/employees",
     },
     {
       title: "Training",
       icon: <ModelTraining />,
-      path: "/account",
+      path: "/training",
     },
     {
       title: "Analysis",
       icon: <Analytics />,
-      path: "/",
+      path: "/analysis",
     },
     {
       title: "Documents",
       icon: <DocumentScanner />,
-      path: "/library",
+      path: "/documents",
     },
     {
       title: "Settings",
       icon: <Settings />,
-      path: "/analysis",
+      path: "/settings",
     },
   ];
 

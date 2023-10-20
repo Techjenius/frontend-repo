@@ -30,7 +30,7 @@ const NameSetUp = ({ text }) => {
           id="outlined-basic"
           label={text}
           style={{margin: '5px 0'}}
-          className="md:w-[350px] lg:w-[500px] w-[300px]"
+          className="md:w-[350px] lg:w-[100%] w-[300px]"
           variant="outlined"
           value={name}
           onChange={() => handleNameChange(event)}

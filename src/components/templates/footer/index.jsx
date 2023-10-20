@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../styles/styles.css";
 import Image from "next/image";
-import Logo from "../../../../public/images/logo.png";
+import Logo from "../../../../public/images/logomaster.png";
 import Link from "next/link";
 import { Twitter } from "@mui/icons-material";
 import { LinkedIn } from "@mui/icons-material";

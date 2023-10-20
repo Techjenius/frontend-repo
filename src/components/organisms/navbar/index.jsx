@@ -3,7 +3,7 @@ import { Menu } from "@mui/icons-material";
 import { Logo } from "@/components/atoms";
 import Link from "next/link";
 import Image from "next/image";
-import Logos from "../../../../public/images/logo.png";
+import Logos from "../../../../public/images/logomaster.png";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);

@@ -20,40 +20,40 @@ const Sidebar = ({ list }) => {
 
   const SideList = [
     {
-        title: "Dashboard",
-        icon: <Home />,
-        path: "/",
-      },
-      {
-        title: "Admin",
-        icon: <AdminPanelSettings />,
-        path: "/library",
-      },
-      {
-        title: "Employee",
-        icon: <People />,
-        path: "/analysis",
-      },
-      {
-        title: "Training",
-        icon: <ModelTraining />,
-        path: "/account",
-      },
-      {
-        title: "Analysis",
-        icon: <Analytics />,
-        path: "/",
-      },
-      {
-        title: "Documents",
-        icon: <DocumentScanner />,
-        path: "/library",
-      },
-      {
-        title: "Settings",
-        icon: <Settings />,
-        path: "/analysis",
-      },
+      title: "Dashboard",
+      icon: <Home />,
+      path: "/",
+    },
+    {
+      title: "Admin",
+      icon: <AdminPanelSettings />,
+      path: "/admin",
+    },
+    {
+      title: "Employees",
+      icon: <People />,
+      path: "/employees",
+    },
+    {
+      title: "Training",
+      icon: <ModelTraining />,
+      path: "/training",
+    },
+    {
+      title: "Analysis",
+      icon: <Analytics />,
+      path: "/analysis",
+    },
+    {
+      title: "Documents",
+      icon: <DocumentScanner />,
+      path: "/documents",
+    },
+    {
+      title: "Settings",
+      icon: <Settings />,
+      path: "/settings",
+    },
   ];
 
   return (

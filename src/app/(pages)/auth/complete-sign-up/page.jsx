@@ -27,7 +27,7 @@ export default function CompleteSingUp() {
 
   return (
     <AuthContainer>
-      {/* <Image src="/images/people-happy.jpg" fill className="  absolute z-[999] " alt="img"  /> */}
+      {/* <Image src="/images/people-happy.jpg" fill className="absolute z-[999]" alt="img"  /> */}
       <Image
         src="/images/hands-on-deck.jpg"
         alt="image"
