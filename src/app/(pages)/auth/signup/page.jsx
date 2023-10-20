@@ -29,7 +29,6 @@ export default function Signup() {
  
   return (
         <AuthContainer>
-        {/* <Image src="/images/people-happy.jpg" fill className="  absolute z-[999] " alt="img"  /> */}
         <Image src="/images/people-learning.png" alt="image" className='md:h-[100vh] md:relative  bg-contain h-[50vh] mb-3' width={1000} height={40} />
         <div className='flex flex-col items-center'>
           <h2 className='text-[#007bff] md:text-[40px] text-[24px] font-[500]   mb-[2rem]'>Sign Up</h2>

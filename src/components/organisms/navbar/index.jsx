@@ -25,16 +25,16 @@ const Navbar = () => {
             } transition-all duration-75 flex-col lg:flex-row lg:justify-around justify-center items-center gap-6 absolute lg:relative w-[100%] bg-primary lg:bg-transparent top-0 lg:top-0 left-0 lg:left-0`}
           >
             <ul className="flex flex-col lg:flex-row justify-center items-center gap-4 lg:ml-[25%] gap-y-10 lg:gap-y-0 font-600">
-              <Link href={"#"} className="hover:text-primary text-white">
+              <Link href={"/dashboard"} className="hover:text-primary text-white">
                 <li className="font-semibold">Home</li>
               </Link>
-              <Link href={"#"} className="hover:text-primary text-white">
+              <Link href={"/features"} className="hover:text-primary text-white">
                 <li className="font-semibold">Fetures</li>
               </Link>
-              <Link href={"#"} className="hover:text-primary text-white">
+              <Link href={"/testimonies"} className="hover:text-primary text-white">
                 <li className="font-semibold">Testimonies</li>
               </Link>
-              <Link href={"#"} className="hover:text-primary text-white">
+              <Link href={"/faqs"} className="hover:text-primary text-white">
                 <li className="font-semibold">FAQS</li>
               </Link>
             </ul>

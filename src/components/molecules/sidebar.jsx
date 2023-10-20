@@ -5,9 +5,10 @@ import Image from "next/image";
 import Logo from '../../../public/images/sym.png'
 import "../../styles/styles.css";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 
-const Sidebar = ({ list }) => {
+const Sidebar = () => {
   const [hovered, setHovered] = useState(false);
 
   const handleHover = () => {
@@ -20,41 +21,43 @@ const Sidebar = ({ list }) => {
 
   const SideList = [
     {
-      title: "Dashboard",
-      icon: <Home />,
-      path: "/",
-    },
-    {
-      title: "Admin",
-      icon: <AdminPanelSettings />,
-      path: "/admin",
-    },
-    {
-      title: "Employees",
-      icon: <People />,
-      path: "/employees",
-    },
-    {
-      title: "Training",
-      icon: <ModelTraining />,
-      path: "/training",
-    },
-    {
-      title: "Analysis",
-      icon: <Analytics />,
-      path: "/analysis",
-    },
-    {
-      title: "Documents",
-      icon: <DocumentScanner />,
-      path: "/documents",
-    },
-    {
-      title: "Settings",
-      icon: <Settings />,
-      path: "/settings",
-    },
+        title: "Dashboard",
+        icon: <Home />,
+        path: "/dashboard",
+      },
+      {
+        title: "Admin",
+        icon: <AdminPanelSettings />,
+        path: "/dashboard/admin",
+      },
+      {
+        title: "Employee",
+        icon: <People />,
+        path: "/employee",
+      },
+      {
+        title: "Training",
+        icon: <ModelTraining />,
+        path: "/training",
+      },
+      {
+        title: "Analysis",
+        icon: <Analytics />,
+        path: "/analytics",
+      },
+      {
+        title: "Documents",
+        icon: <DocumentScanner />,
+        path: "/documents",
+      },
+      {
+        title: "Settings",
+        icon: <Settings />,
+        path: "/settings",
+      },
+
   ];
+  const pathname = usePathname();
 
   return (
     <div className="relative w-[100%] hidden lg:block">
@@ -87,10 +90,10 @@ const Sidebar = ({ list }) => {
           } flex flex-col justify-start align-start items-start gap-[10px]`}
         >
           {SideList.map((item, i) => (
-            <li key={i} className="flex w-[100%] justify-start items-center">
+            <li key={i} className={`${pathname == item.path ? 'bg-[#4d94ff14]  border-l-[5px] border-blue-500 border' : ''} rounded  flex w-[100%] justify-start items-center hover:bg-[#4d94ff14]`}>
               <span className="py-2 ml-2 text-[25px] text-primary">{item.icon}</span>
               <Link
-                className={`px-2 py-2 text-[15px] rounded hover:bg-[#ececec] w-[80%] self-center ${
+                className={`px-2 text-[15px] rounded  w-[80%] self-center ${
                   hovered ? "scale-100 ml-[5px] cursor-pointer" : "scale-0"
                 } duration-100`}
                 href={item.path}

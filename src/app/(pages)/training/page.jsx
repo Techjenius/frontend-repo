@@ -18,46 +18,9 @@ import PanTool from "../../../../public/images/manhappy.png";
 import Image from "next/image";
 import "../../../styles/styles.css";
 import Table from "@/components/organisms/table";
+import MyComponent from "@/components/molecules/routing";
 
 const Training = () => {
-  const sideMenuList = [
-    {
-      title: "Dashboard",
-      icon: <Home />,
-      path: "/",
-    },
-    {
-      title: "Admin",
-      icon: <AdminPanelSettings />,
-      path: "/admin",
-    },
-    {
-      title: "Employees",
-      icon: <People />,
-      path: "/employees",
-    },
-    {
-      title: "Training",
-      icon: <ModelTraining />,
-      path: "/training",
-    },
-    {
-      title: "Analysis",
-      icon: <Analytics />,
-      path: "/analysis",
-    },
-    {
-      title: "Documents",
-      icon: <DocumentScanner />,
-      path: "/documents",
-    },
-    {
-      title: "Settings",
-      icon: <Settings />,
-      path: "/settings",
-    },
-  ];
-
   const moduleArray = [
     {
       src: Shield,
@@ -94,7 +57,7 @@ const Training = () => {
     <div>
         <div className="flex flex-row relative w-[100%] h-[100vh] overflow-hidden">
           <div className="hidden md:block">
-            <Sidebar list={sideMenuList} />
+            <Sidebar />
           </div>
           <div className="w-[100%] overflow-y-auto min-h-min max-h-max">
             <div className="flex flex-col w-[100%] top-0 left-0 bg-white z-[10] sticky">
