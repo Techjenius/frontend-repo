@@ -1,6 +1,6 @@
-'use client'
+"use client";
 import React from "react";
-import { useState } from 'react';
+import { useState } from "react";
 import Image from "next/image";
 import Person from "../../../../public/images/profile-add.svg";
 import Folder from "../../../../public/images/folder.svg";
@@ -42,12 +42,12 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="mx-2 md:mx-20 my-5">
+    <div className="mx-2 my-5 md:mx-20">
       <h1 className="md:text-[32px] text-[24px] font-bold text-[#333]  ">
         Welcome To OnboardMasters 👋
       </h1>
-      <div className="flex flex-col md:flex-row items-center w-full justify-between mt-5 gap-4">
-      {req.map((item) => (
+      <div className="flex flex-col items-center justify-between w-full gap-4 mt-5 md:flex-row">
+        {req.map((item) => (
           <div
             key={item.title}
             className={`flex items-center gap-4 pt-[33px] pl-[25px] pb-[27px] pr-[37px] border border-[#D9D9D9] w-full justify-center rounded-lg ${
@@ -62,10 +62,10 @@ const Dashboard = () => {
         ))}
       </div>
       <div className="py-8">
-      {activeSection === "pending" && <Pending />}
-      {activeSection === "submission" && <Submission />}
-      {activeSection === "progress" && <ProgressPg />}
-      {activeSection === "invite" && <InvitePg />}
+        {activeSection === "pending" && <Pending />}
+        {activeSection === "submission" && <Submission />}
+        {activeSection === "progress" && <ProgressPg />}
+        {activeSection === "invite" && <InvitePg />}
       </div>
     </div>
   );

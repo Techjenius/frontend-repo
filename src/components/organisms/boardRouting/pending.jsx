@@ -29,7 +29,7 @@ const req = [
 const Pending = () => {
   return (
     <div>
-      <div className="mt-5 flex flex-wrap lg:flex-nowrap justify-between gap-4">
+      <div className="flex flex-wrap justify-between gap-4 mt-5 lg:flex-nowrap">
         <Card />
         <StatsCard />
       </div>
