@@ -15,7 +15,7 @@ const Introduction = () => {
         </div>
         <p className="text-slate-300 text-[14px] py-4 text-center">Welcome to our Employee Onboarding and Training Platform</p>
         <button className="bg-primary text-white py-3 px-10 rounded-md outline-none border-none text-center">
-          <Link href={"/auth/signUp"}>
+          <Link href={"/auth/signup"}>
           Get Started
           </Link>
         </button>

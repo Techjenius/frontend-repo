@@ -7,11 +7,11 @@ import { Search } from '@mui/icons-material';
 const Navbar = () => {
 
     return (
-        <div>
+        <div className=''>
             <div className="py-4 px-6 flex justify-between items-center shadow-md gap-5">
-                <div className='flex justify-start items-center'>
+                <div className='flex justify-start items-center border-2 w-[50%] border-[#ececec] focus:border-primary outline-[#ececec] focus:outline-primary py-2 px-4 rounded-md gap-4'>
                     <Search size={40} className='text-[#e0dfdf] hover:text-primary'/>
-                    <input type="search" name="search" id="search" className='w-[100%] md:w-[300px] border-2 border-[#ececec] focus:border-primary outline-[#ececec] focus:outline-primary py-2 rounded-md' />
+                    <input type="search" name="search" id="search" className='w-full outline-none bg-white ' />
                 </div>
                 <div className="flex justify-start items-center pl-5 md:pl-0">
                     <Image  

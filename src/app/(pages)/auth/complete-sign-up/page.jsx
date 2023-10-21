@@ -54,7 +54,7 @@ export default function CompleteSingUp() {
             <span className="mt-4 text-gray-800">Upload CV</span>
             <FileUpload />
           </div>
-          <Link href={"/home"}>
+          <Link href={"/dashboard"}>
             <Button text={"Sign Up"} />
           </Link>
         </form>
