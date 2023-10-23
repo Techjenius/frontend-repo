@@ -40,7 +40,7 @@ const [showNavbar, setShowNavbar] = useState(false);
             <ul className="flex flex-col mt-[100px] justify-end items-start gap-8">
               <li>
                 <Link
-                  href={"/"}
+                  href={"/dashboard"}
                   className="text-white font-semibold text-[20px] hover:text-blue-950 py-2 px-6"
                 >
                   Dashboard
@@ -48,7 +48,7 @@ const [showNavbar, setShowNavbar] = useState(false);
               </li>
               <li>
                 <Link
-                  href={"/"}
+                  href={"/dashboard/admin"}
                   className="text-white font-semibold text-[20px] hover:text-blue-950 py-2 px-6"
                 >
                   Admin

@@ -42,7 +42,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="mx-2 md:mx-20 my-5">
+    <div className="mx-2 md:mx-20 md:my-5 ">
       <h1 className="md:text-[32px] text-[24px] font-bold text-[#333]  ">
         Welcome To OnboardMasters 👋
       </h1>
